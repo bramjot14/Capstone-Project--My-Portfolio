@@ -1,0 +1,154 @@
+/* Reset and basic styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: #333;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.75em;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555; /* Darker text color */
+}
+
+/* Sections with specific background colors */
+.intro {
+  background-color: #f0f0f0; /* Light grey */
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.education {
+  background-color: #e9ecef; /* Light greyish blue */
+  color: #333; /* Darker text color */
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  background-color: #d1ecf1; /* Light blue */
+  color: #333; /* Darker text color */
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.projects {
+  background-color: #f8d7da; /* Light red */
+  color: #333; /* Darker text color */
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.contact {
+  background-color: #fff3cd; /* Light yellow */
+  color: #333; /* Darker text color */
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Circular image */
+.education img {
+  border-radius: 50%; /* Makes the image circular */
+  border: 5px solid #fff; /* White border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects ul {
+  text-align: center; /* Center aligns list items */
+}
+
+.projects li {
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin-bottom: 15px;
+}
+
+.contact a {
+  color: #333; /* Darker link color */
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+}
+
+/* Subtle hover effect on project links */
+.projects a {
+  transition: color 0.3s ease;
+}
+
+.projects a:hover {
+  color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  border-top: 2px solid #dee2e6;
+}
+
+footer p {
+  margin: 0;
+  color: #333;
+}
